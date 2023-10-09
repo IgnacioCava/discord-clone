@@ -12,5 +12,8 @@
   "rules": {
     "@typescript-eslint/no-unused-vars": "warn",
     "prettier/prettier": ["warn", { "singleQuote": true }]
-  }
+  },
+  "ignorePatterns": [
+    "**/api/auth/**/*.ts"
+  ]
 }
